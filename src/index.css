@@ -1,25 +1,108 @@
 body {
   margin: 0;
-  background-color: #ed4ee5;
+  /* background-color: #ed4ee5; */
   font-family:'Helvetica Neue',sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-
-  /* background-image: url(./...);
+  background-image: url(./images/cloud.jpg);
   background-position: center;
-  background-size: cover; */
+  background-size: cover; 
 
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
-}
 
 .App{
   text-align: center;
   margin: 50px auto;
-  max-width: 700px;
-  height: 80vh;
-  background-color: azure;
+  max-width: 80%;
+  flex-direction: column;
+  display: flex;
+  justify-content: space-between;
+  background-color: lightsteelblue;
 }
+
+ .search{
+  width: 90%;
+  
+ 
+} 
+
+main {
+  display: flex;
+  height: 180vh;
+  flex-direction: column;
+  justify-content: space-between;
+    
+}
+
+.search-bar {
+  width: 90%;
+  margin: 0 auto;
+  display: flex;
+  height: 60px;
+  border-radius: 10px;
+  justify-content: space-between;
+  background: #0D1F47; 
+  color: red;
+}
+
+.search-bar > * {
+  border: 0;
+  outline: 0;
+  display: flex;
+  font-size: 1.5em;
+  background: transparent;
+}
+
+/* .tab {
+  height: 20vh;
+} */
+
+.API-Results{
+  display: flex;
+  padding: 80px;
+  justify-content: space-evenly;
+
+
+}
+
+footer {
+  margin-bottom: 0;
+  margin-top: 80;
+  position: bottom;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* .search-wrap > * { 
+  border: 0;
+  outline: 0;
+  font-size: 2em;
+  color: #943623;
+
+} */
